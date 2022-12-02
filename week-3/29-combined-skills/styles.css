@@ -1,1 +1,49 @@
 /* Add your own CSS code below */
+footer span {
+  color: #c85308;
+}
+
+@media screen and (min-width: 992px) {
+  .hero__title {
+    font-size: xx-large;
+  }
+}
+@media screen and (min-width: 767px) {
+  .site-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .main-nav ul {
+    display: flex;
+    flex-direction: row;
+  }
+  .main-nav li {
+    padding: 0 30px;
+  }
+
+  .views {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .views a {
+    padding: 0 10px;
+  }
+  .views a:last-child {
+    justify-self: flex-end;
+    margin-left: auto;
+  }
+}
+fieldset {
+  display: flex;
+  flex-direction: column;
+}
+.site-content {
+  max-width: 50em;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+  line-height: 30px;
+}
